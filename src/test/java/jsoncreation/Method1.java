@@ -12,6 +12,8 @@ public class Method1 {
     //create json
     //as a file and sending in body
     //create json object and json array
+    //create hashmap and arraylist
+    //create json using object oriented approach or pojo
    @Test
     public void createUser() {
 
@@ -49,7 +51,13 @@ public class Method1 {
       Response response=request.post(endPoint);
 
 
-      //response.prettyPrint();
+
+
+      System.out.println("---------------");
+
+      System.out.println(response);
+
+       response.prettyPrint();
 
 
 
